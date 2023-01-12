@@ -1,0 +1,7 @@
+# IFS_GW_SSW README
+
+Code repository for manuscript "Increased vertical resolution in the stratosphere reveals role of gravity waves after sudden stratospheric warmings" submitted to Weather Clim. Dynam. by Wolfgang Wicker (https://orcid.org/0000-0002-8951-2875), Inna Polichtchouk (https://orcid.org/0000-0002-8943-4993), and Daniela Domeisen (https://orcid.org/0000-0002-1463-929X). Running all IPython notebooks requires data that is not contained in this repository (see data availability statement in the manuscript).
+
+## Data contained in this repository
+
+The vertical grid defintions in the`data/AandB_137L.txt`, `data/AandB_198L.txt`, and `data/AndB_91L.txt` files are downloaded from the ECMWF User Documentation (https://confluence.ecmwf.int/display/UDOC/User+Documentation). The netCDF files `data/era5_zonal_mean_wind.nc`, `data/T50_bias_ECMWF-ERA-Int-6hourly.nc`, and `data/T50_bias_ECMWF-ERA5.nc` contain processed reanalysis and S2S hindcast data to reproduce Figure 2 that can be downloaded from the Copernicus Climate Data Store and S2S archive  (see their respective licenses). The subfolder `data/vertical_wavelet_power_spectra` contains processed IFS simulation output to reproduce Figure 7.
